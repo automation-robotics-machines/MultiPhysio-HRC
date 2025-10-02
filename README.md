@@ -7,7 +7,8 @@
   <a href="#citation"><img alt="Cite this" src="https://img.shields.io/badge/Cite-this-blue"></a>
   <a href="#getting-started"><img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-blue"></a>
   <a href="#license"><img alt="License" src="https://img.shields.io/badge/Code-MIT-blue"></a>
-  <a href="https://doi.org/XXXX"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-Zenodo-brightgreen"></a>
+  <a href="https://zenodo.org/records/17225571"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-Zenodo-brightgreen"></a>
+  <a href="https://arxiv.org/abs/2510.00703"><img alt="arXiv" src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv"></a>
   <img alt="Status" src="https://img.shields.io/badge/Status-Active-success">
 </p>
 
@@ -45,8 +46,6 @@ This repository provides:
 ├─ examples/
 │  └─ minimal_pipeline.py          # Scripted end‑to‑end run
 ├─ requirements.txt                # Python deps
-├─ pyproject.toml                  # (optional) for modern builds
-├─ CITATION.cff                    # Paper metadata (fill in DOI when available)
 └─ README.md                       # You are here
 ```
 
@@ -66,7 +65,7 @@ pip install -r requirements.txt
 ```
 
 ### 2) Download the dataset
-- Visit **https://tinyurl.com/MultiPhysio-HRC** and follow the instructions to obtain access and download files.
+- Visit **https://zenodo.org/records/17225571** and follow the instructions to obtain access and download files.
 - Keep the raw data in a folder of your choice and set:
 ```bash
 export MULTIPHYSIO_HRC_DATA=/path/to/MultiPhysio-HRC
@@ -157,13 +156,14 @@ A: We default to **Leave‑One‑Subject‑Out**. Utility functions can generate
 If you use **MultiPhysio‑HRC** or this code, please cite the paper:
 
 ```bibtex
-@article{MultiPhysioHRC2025,
-  title   = {MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration},
-  author  = {Bussolan, Andrea and Baraldo, Stefano and Avram, Oliver and Urcola, Pablo and Montesano, Luis and Gambardella, Luca Maria and Valente, Anna},
-  year    = {2025},
-  journal = {TBD},
-  volume  = {TBD}, number = {TBD}, pages = {TBD},
-  doi     = {TBD},
+@misc{bussolan2025multiphysiohrcmultimodalphysiologicalsignals,
+      title={MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration}, 
+      author={Andrea Bussolan and Stefano Baraldo and Oliver Avram and Pablo Urcola and Luis Montesano and Luca Maria Gambardella and Anna Valente},
+      year={2025},
+      eprint={2510.00703},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2510.00703}, 
 }
 ```
 
