@@ -7,7 +7,7 @@
   <a href="#citation"><img alt="Cite this" src="https://img.shields.io/badge/Cite-this-blue"></a>
   <a href="#getting-started"><img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-blue"></a>
   <a href="#license"><img alt="License" src="https://img.shields.io/badge/Code-MIT-blue"></a>
-  <a href="https://zenodo.org/records/17225571"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-Zenodo-brightgreen"></a>
+  <a href="https://zenodo.org/records/18668043"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-Zenodo-brightgreen"></a>
   <a href="https://arxiv.org/abs/2510.00703"><img alt="arXiv" src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv"></a>
   <img alt="Status" src="https://img.shields.io/badge/Status-Active-success">
 </p>
