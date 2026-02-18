@@ -156,14 +156,17 @@ A: We default to **Leave‑One‑Subject‑Out**. Utility functions can generate
 If you use **MultiPhysio‑HRC** or this code, please cite the paper:
 
 ```bibtex
-@misc{bussolan2025multiphysiohrcmultimodalphysiologicalsignals,
-      title={MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration}, 
-      author={Andrea Bussolan and Stefano Baraldo and Oliver Avram and Pablo Urcola and Luis Montesano and Luca Maria Gambardella and Anna Valente},
-      year={2025},
-      eprint={2510.00703},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2510.00703}, 
+@article{robotics14120184,
+      AUTHOR = {Bussolan, Andrea and Baraldo, Stefano and Avram, Oliver and Urcola, Pablo and Montesano, Luis and Gambardella, Luca Maria and Valente, Anna},
+      TITLE = {MultiPhysio-HRC: A Multimodal Physiological Signals Dataset for Industrial Human-Robot Collaboration},
+      JOURNAL = {Robotics},
+      VOLUME = {14},
+      YEAR = {2025},
+      NUMBER = {12},
+      ARTICLE-NUMBER = {184},
+      URL = {https://www.mdpi.com/2218-6581/14/12/184},
+      ISSN = {2218-6581},
+      DOI = {10.3390/robotics14120184}
 }
 ```
 
